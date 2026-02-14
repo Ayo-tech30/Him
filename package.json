@@ -1,0 +1,26 @@
+{
+  "name": "violet-bot",
+  "version": "1.0.0",
+  "description": "Violet WhatsApp Bot by Kynx",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "Kynx",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.0.0",
+    "firebase-admin": "^12.0.0",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^0.22.12",
+    "moment-timezone": "^0.5.45"
+  }
+}
